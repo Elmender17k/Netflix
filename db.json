@@ -53,7 +53,44 @@
       "año_creacion": 2008,
       "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
       "imagen": "https://www.themoviedb.org/t/p/original/3jApZTvbOs7giIM01ddPpFWQagR.jpg"
+    },
+    {
+      "id": "007",
+      "productora": "Toei Animation",
+      "titulo": "One Piece: Film Z",
+      "autor": "Pedro Sánchez",
+      "año_creacion": 2008,
+      "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
+      "imagen": "https://image.tmdb.org/t/p/original/gLyelbsRYljP2iWiD5iubA02kBA.jpg"
+    },
+    {
+      "id": "008",
+      "productora": "Toei Animation",
+      "titulo": "Dragon Ball Super Broly",
+      "autor": "Pedro Sánchez",
+      "año_creacion": 2008,
+      "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
+      "imagen": "https://th.bing.com/th/id/OIP.m5pWWZ8lfXzY8izwOq_5cQAAAA?pid=ImgDet&rs=1"
+    },
+    {
+      "id": "009",
+      "productora": "Warner Bros",
+      "titulo": "Creed",
+      "autor": "Pedro Sánchez",
+      "año_creacion": 2008,
+      "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
+      "imagen": "https://th.bing.com/th/id/OIP.aZD9VC4OjIPTVotTMjDBSQAAAA?pid=ImgDet&rs=1"
+    },
+    {
+      "id": "010",
+      "productora": "Warner Bros",
+      "titulo": "Creed 2",
+      "autor": "Pedro Sánchez",
+      "año_creacion": 2008,
+      "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
+      "imagen": "https://th.bing.com/th/id/OIP.Shsy9Ge5ElLF31wyzX7WbwHaKp?pid=ImgDet&rs=1"
     }
+    
   ],
   "series": [
     {
