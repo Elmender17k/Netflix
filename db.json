@@ -1,0 +1,150 @@
+{
+  "peliculas": [
+    {
+      "id": "001",
+      "productora": "Universal Pictures",
+      "titulo": "Jhon Wick",
+      "autor": "Juan Pérez",
+      "año_creacion": 2005,
+      "descripcion": "Una emocionante historia de exploración y descubrimiento.",
+      "imagen":"https://i0.wp.com/zinemaniacos.com/wp-content/uploads/2015/01/john-wick.jpg"
+    },
+    {
+      "id": "002",
+      "productora": "Warner Bros",
+      "titulo": "El misterio del abismo",
+      "autor": "María Gómez",
+      "año_creacion": 2012,
+      "descripcion": "Un grupo de buceadores se adentra en lo desconocido y se enfrenta a peligros inimaginables.",
+      "imagen":"https://www.cinemaniahdd.net/wp-content/uploads/2018/08/tSAJTEy5fkG6osOritc1MmQEfzm.jpg"
+    },
+    {
+      "id": "003",
+      "productora": "Paramount Pictures",
+      "titulo": "Riddick",
+      "autor": "Carlos Rodríguez",
+      "año_creacion": 2018,
+      "descripcion": "Un antiguo acertijo lleva a un grupo de arqueólogos en busca de un tesoro legendario.",
+      "imagen":"https://th.bing.com/th/id/OIP.sYHNcdfIkeUl84v45WygnAHaJ4?pid=ImgDet&rs=1"
+    },
+    {
+      "id": "004",
+      "productora": "Disney",
+      "titulo": "Atrapados en el tiempo",
+      "autor": "Laura Martínez",
+      "año_creacion": 1993,
+      "descripcion": "Un hombre queda atrapado en un bucle temporal y debe encontrar la forma de escapar.",
+      "imagen":"https://th.bing.com/th/id/R.9a834b7ffaa77c3e208996540722d9bd?rik=jklWOCyImxJ8aw&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2faSaqolMcP71F5WthBm7nBuazSPG.jpg&ehk=es%2b0yupzRHcygJw7XIsf3o5q380waXohwNTRrDY36Mg%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "005",
+      "productora": "Sony Pictures",
+      "titulo": "La última frontera",
+      "autor": "Pedro Sánchez",
+      "año_creacion": 2008,
+      "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
+      "imagen":"https://th.bing.com/th/id/OIP.3FiJwiozKsUTv_aB8Ic0CQHaLf?pid=ImgDet&rs=1"
+    },
+    {
+      "id": "006",
+      "productora": "Universal Pictures",
+      "titulo": "Jhon Wick 2",
+      "autor": "Pedro Sánchez",
+      "año_creacion": 2008,
+      "descripcion": "Una expedición se aventura en los confines del universo en busca de nuevas formas de vida.",
+      "imagen": "https://www.themoviedb.org/t/p/original/3jApZTvbOs7giIM01ddPpFWQagR.jpg"
+    }
+  ],
+  "series": [
+    {
+      "id": 1,
+      "productora": "HBO",
+      "titulo": "Hermanos de sangre",
+      "autor": "Steven Spielberg, Tom Hanks",
+      "año_creacion": 2001,
+      "descripcion": "Miniserie basada en la Segunda Guerra Mundial que sigue las vivencias de la Easy Company.",
+      "imagen": "https://phantom-marca.unidadeditorial.es/26d4f7b3be4f43c4380ec0f594f49304/assets/multimedia/imagenes/2019/05/21/15584368781263.jpg"
+    },
+    {
+      "id": 2,
+      "productora": "AMC",
+      "titulo": "Breaking Bad",
+      "autor": "Vince Gilligan",
+      "año_creacion": 2008,
+      "descripcion": "Un profesor de química se convierte en fabricante y vendedor de metanfetaminas para asegurar el futuro de su familia.",
+      "imagen": "https://th.bing.com/th/id/OIP.6erJ3FK7pUcbUS31jXNXywHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 3,
+      "productora": "HBO",
+      "titulo": "Chernobyl",
+      "autor": "Craig Mazin",
+      "año_creacion": 2019,
+      "descripcion": "Dramatización de los eventos del desastre nuclear de Chernobyl en 1986 y sus consecuencias.",
+      "imagen": "https://www.nacionrex.com/__export/1557512789310/sites/debate/img/2019/05/10/ch_crop1557509792300.jpg_1834093470.jpg"
+    },
+    {
+      "id": 4,
+      "productora": "HBO",
+      "titulo": "The Wire",
+      "autor": "David Simon",
+      "año_creacion": 2002,
+      "descripcion": "Explora la vida en las calles de Baltimore a través de las perspectivas de policías, criminales y habitantes de la ciudad.",
+      "imagen": "https://iahhm.com/wp-content/uploads/2020/04/The-Wire-520b226.jpg"
+    },
+    {
+      "id": 5,
+      "productora": "Nickelodeon",
+      "titulo": "Avatar: la leyenda de Aang",
+      "autor": "Michael Dante DiMartino, Bryan Konietzko",
+      "año_creacion": 2005,
+      "descripcion": "Un niño con el poder de controlar los elementos debe detener a la Nación del Fuego y restaurar el equilibrio en el mundo.",
+      "imagen": "https://th.bing.com/th/id/R.6317f703409a4815d271e8ed4ebc7485?rik=67%2fQiIq0QW6bNQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 6,
+      "productora": "HBO",
+      "titulo": "Juego de tronos",
+      "autor": "David Benioff, D.B. Weiss",
+      "año_creacion": 2011,
+      "descripcion": "Basada en las novelas de George R.R. Martin, la serie sigue las luchas de poder entre casas nobles en los Siete Reinos.",
+      "imagen": "https://th.bing.com/th/id/OIP.tjsGumalRQ364xuh6bnifQHaEo?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 7,
+      "productora": "HBO",
+      "titulo": "Los Soprano",
+      "autor": "David Chase",
+      "año_creacion": 1999,
+      "descripcion": "Un capo de la mafia de Nueva Jersey lucha por equilibrar su vida familiar y sus negocios ilegales.",
+      "imagen": "https://th.bing.com/th/id/OIP.0lQDSZb7Ne7lzNEqhw2QOAHaKO?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 8,
+      "productora": "Adult Swim",
+      "titulo": "Rick y Morty",
+      "autor": "Justin Roiland, Dan Harmon",
+      "año_creacion": 2013,
+      "descripcion": "Un científico loco y su nieto aventuran en viajes interdimensionales llenos de humor negro y ciencia ficción.",
+      "imagen": "https://th.bing.com/th/id/R.b6478cd0f5e22cf313e6fb9eb07c6596?rik=9s%2b%2bH4dtKdVqNA&riu=http%3a%2f%2fes.web.img3.acsta.net%2fpictures%2f17%2f11%2f06%2f14%2f13%2f5164749.jpg%3fcoixp%3d50%26coiyp%3d47&ehk=ABD0SbDbPJTSQTr90TbpGC2qa8ujdV1rBkMzzNHIpu4%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 9,
+      "productora": "SonyLIV",
+      "titulo": "Scam 1992: The Harshad Mehta Story",
+      "autor": "Hansal Mehta",
+      "año_creacion": 2020,
+      "descripcion": "Basada en hechos reales, sigue la historia del mayor fraude financiero de la India en la década de 1990.",
+      "imagen": "https://www.businessinsider.in/photo/78571540/what-was-the-harshad-mehta-scam-1992-checkout-this-story-on-sonyliv.jpg?imgsize=352843"
+    },
+    {
+      "id": 10,
+      "productora": "MBS",
+      "titulo": "Fullmetal Alchemist: Brotherhood",
+      "autor": "Hiromu Arakawa",
+      "año_creacion": 2009,
+      "descripcion": "Dos hermanos alquimistas buscan la piedra filosofal para restaurar sus cuerpos en un mundo lleno de alquimia y conspiraciones.",
+      "imagen": "https://th.bing.com/th/id/R.a3ebd1e7c756763e43879aaa993a2887?rik=0EfblpEu77YN8w&riu=http%3a%2f%2fpics.filmaffinity.com%2fFullmetal_Alchemist_Brotherhood_TV_Series-856216430-large.jpg&ehk=diIqQ6ebwPXiwShE2pGlbgwZtqf%2fC%2f0XGIvxySarUXU%3d&risl=&pid=ImgRaw&r=0"
+    }
+  ]
+}

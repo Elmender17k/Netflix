@@ -1,0 +1,39 @@
+<div class="bg-black">
+    <img src="https://i.ytimg.com/vi/uw18nWUvojM/maxresdefault.jpg" class=" row row-cols-6 row-cols-md-25 g-35">
+    <h3 >Peliculas</h3>
+    <div class="bg-black row row-cols-6 row-cols-md-18 g-15">
+          <div class="card bg-black text-light md-3 mt-2" *ngFor="let pelicula of peliculas">
+            <div class = "card.header bg-black text-light" >{{pelicula.productora}}</div>
+            <img src="{{pelicula.imagen}}" class="card-img-top">
+            </div>
+    </div>
+    <h3 >Series</h3>
+    <div class="bg-black row row-cols-6 row-cols-md-18 g-15">
+      <div class="card bg-black text-light md-3 mt-2" *ngFor="let serie of series">
+        <div class = "card.header bg-black text-light" >{{serie.productora}}</div>
+        <img src="{{serie.imagen}}" class="card-img-top">
+        </div>
+    </div>
+    </div>
+<div>
+</div>
+<footer class="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Centro de ayuda</a>
+        <a href="#">Cuenta</a>
+        <a href="#">Términos de uso</a>
+        <a href="#">Privacidad</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img src="https://th.bing.com/th/id/OIP.6eqQpOsrj-KM9wYaBp9aaQHaE8?pid=ImgDet&rs=1" alt="Logo Netflix">
+    </div>
+  </footer>
+  
