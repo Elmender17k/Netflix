@@ -1,0 +1,42 @@
+<div class="d-flex justify-centent-center" *ngIf="!serie; else idSerie">
+
+
+    <div class="spinner-border text-danger" role="status">
+        
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  
+  <ng-template #idSerie>
+    <hr>
+    <div class="row">
+  
+      <div class="col-4">
+  
+        <img src="{{serie.imagen}}"class="img-fluid img-thumbnail">
+      </div>
+  
+    
+  <div class="col-8">
+      
+    <h2 class="text-light"> <strong>Pelicula:</strong>{{serie.titulo}} </h2>
+    <p class="text-light">
+      <strong>Autor</strong>
+      {{serie.autor}}
+    </p>
+    <p class="text-light">
+      <strong>Descripcion</strong>
+      {{serie.descripcion}}
+    </p>
+    <p class="text-light">
+      <strong>Productora</strong>
+      {{serie.productora}}
+    </p>
+  
+  
+  </div>
+  
+  </div>
+    
+  
+  </ng-template>

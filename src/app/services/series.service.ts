@@ -18,5 +18,16 @@ getAllSeries(): Observable<Series[]>{
 
 
 }
+getAllSerie(titulo: string): Observable<Series>{
+  return this.http.get<Series>(`${URL}/series/${titulo}`);
+
+
+}
+getBuscar(texto: string): Observable<Series[]>{
+  return this.http.get<Series[]>(`${URL}/series?titulo_like=${texto}`);
+  //return this.http.get<Series[]>(`${URL}/peliculas?q=${texto}`);
+
+
+}
 
 }

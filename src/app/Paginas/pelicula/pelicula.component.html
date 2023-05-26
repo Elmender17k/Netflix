@@ -1,1 +1,46 @@
-<p>pelicula works!</p>
+
+<div class="d-flex justify-centent-center" *ngIf="!pelicula; else idPelicula">
+
+
+  <div class="spinner-border text-danger" role="status">
+      
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+<ng-template #idPelicula>
+  <hr>
+  <div class="row">
+
+    <div class="col-4">
+
+      <img src="{{pelicula.imagen}}"class="img-fluid img-thumbnail">
+    </div>
+
+  
+<div class="col-8">
+    
+  <h2 class="text-light"> <strong>Pelicula:</strong>{{pelicula.titulo}} </h2>
+  <p class="text-light">
+    <strong>Autor</strong>
+    {{pelicula.autor}}
+  </p>
+  <p class="text-light">
+    <strong>Descripcion</strong>
+    {{pelicula.descripcion}}
+  </p>
+  <p class="text-light">
+    <strong>Productora</strong>
+    {{pelicula.productora}}
+  </p>
+
+  <div class="video-container text-light"><h2>Trailer:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PAvug-z7lqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  
+</div>
+
+</div>
+  
+
+</ng-template>

@@ -1,5 +1,6 @@
 
 export interface Pelicula {
+  
     id:           string;
     productora:   string;
     titulo:       string;

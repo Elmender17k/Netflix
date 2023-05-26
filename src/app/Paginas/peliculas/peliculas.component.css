@@ -1,0 +1,70 @@
+
+
+/* Estilos generales */
+body {
+    
+background-color: #000;
+
+    background-color: #141414;
+    color: #070000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+  
+  /* Estilos para la sección de películas */
+  h1 {
+    color: #e50914;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  hr {
+    border-color: #e50914;
+  }
+  
+  .card {
+    background-color: #000000;
+    border: none;
+  }
+  
+  .card-header {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 4px;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  /* Estilos para la disposición de las tarjetas */
+  .row-cols-6 {
+    column-count: 6;
+    column-gap: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .row-cols-6 {
+      column-count: 5;
+    }
+  }
+  

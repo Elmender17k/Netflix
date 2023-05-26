@@ -5,14 +5,18 @@ import { ListadoComponent } from './Paginas/listado/listado.component';
 import { PeliculaComponent } from './Paginas/pelicula/pelicula.component';
 import { BuscarComponent } from './Paginas/buscar/buscar.component';
 import { PrincipalComponent } from './Paginas/principal/principal.component';
+import { SeriesComponent } from './Paginas/series/series.component';
+import { SerieComponent } from './Paginas/serie/serie.component';
 
 const routes: Routes = [
 
   {path:'principal', component: PrincipalComponent},
   {path:'peliculas', component: PeliculasComponent},
+  {path:'series', component: SeriesComponent},
   {path:'listado', component: ListadoComponent},
-  {path:'id', component: PeliculaComponent},
-  {path:'buscar/text', component: BuscarComponent},
+  {path:'peliculas/:titulo', component: PeliculaComponent},
+  {path:'series/:titulo', component: SerieComponent},
+  {path:'buscar/:texto', component: BuscarComponent},
 
 
 

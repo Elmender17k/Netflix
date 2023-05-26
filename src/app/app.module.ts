@@ -10,6 +10,10 @@ import { PeliculasComponent } from './Paginas/peliculas/peliculas.component';
 import { NavbarComponent } from './Buscar/navbar/navbar.component';
 import { ListadoComponent } from './Paginas/listado/listado.component';
 import { PrincipalComponent } from './Paginas/principal/principal.component';
+import { FooterComponent } from './Buscar/footer/footer.component';
+import { SeriesComponent } from './Paginas/series/series.component';
+import { SerieComponent } from './Paginas/serie/serie.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,16 @@ import { PrincipalComponent } from './Paginas/principal/principal.component';
     BuscarComponent,
     NavbarComponent,
     ListadoComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    FooterComponent,
+    SeriesComponent,
+    SerieComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
    
   ],
   providers: [],

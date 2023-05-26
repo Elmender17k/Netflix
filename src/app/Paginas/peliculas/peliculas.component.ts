@@ -9,16 +9,16 @@ import { PeliculasService } from 'src/app/services/peliculas.service';
 })
 export class PeliculasComponent implements OnInit {
  
+peliculas: Pelicula[]=[]
 
-
- constructor(){
+ constructor(private PeliculasService: PeliculasService){
 
 
  }
  
   ngOnInit(): void {
     
-
+this.PeliculasService.getAllPeliculas().subscribe(peliculas => this.peliculas = peliculas)
 
   }
 

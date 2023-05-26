@@ -1,0 +1,9 @@
+<h1 >Series</h1>
+    <div class="bg-black row row-cols-5 row-cols-md-18 g-15">
+      <div class="card bg-black text-light md-3 mt-3" *ngFor="let serie of series">
+        <div class = "card.header bg-black text-light" >{{serie.productora}}</div>
+        <a [routerLink]="['/peliculas', serie.id]">
+        <img src="{{serie.imagen}}" class="card-img-top">
+        </a>
+        </div>
+
