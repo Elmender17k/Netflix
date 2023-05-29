@@ -7,9 +7,12 @@ import { BuscarComponent } from './Paginas/buscar/buscar.component';
 import { PrincipalComponent } from './Paginas/principal/principal.component';
 import { SeriesComponent } from './Paginas/series/series.component';
 import { SerieComponent } from './Paginas/serie/serie.component';
+import { LoginComponent } from './inicio/login/login.component';
+
 
 const routes: Routes = [
 
+  {path:'', component: LoginComponent},
   {path:'principal', component: PrincipalComponent},
   {path:'peliculas', component: PeliculasComponent},
   {path:'series', component: SeriesComponent},

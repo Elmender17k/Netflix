@@ -14,6 +14,8 @@ import { FooterComponent } from './Buscar/footer/footer.component';
 import { SeriesComponent } from './Paginas/series/series.component';
 import { SerieComponent } from './Paginas/serie/serie.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './inicio/login/login.component';
+import { RegistrarComponent } from './Paginas/registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FormsModule } from '@angular/forms';
     PrincipalComponent,
     FooterComponent,
     SeriesComponent,
-    SerieComponent
+    SerieComponent,
+    LoginComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
